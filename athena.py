@@ -38,15 +38,13 @@ ORACLES: list[dict[str, str]] = [
     {
         "category": "generic",
         "text": (
-            "When in doubt, prefer a boring solution that ships "
-            "over a clever solution that stalls."
+            "When in doubt, prefer a boring solution that ships over a clever solution that stalls."
         ),
     },
     {
         "category": "diagnostic",
         "text": (
-            "Every abstraction is a tradeoff that will eventually "
-            "be misunderstood by someone."
+            "Every abstraction is a tradeoff that will eventually be misunderstood by someone."
         ),
     },
     {
@@ -66,8 +64,7 @@ ORACLES: list[dict[str, str]] = [
     {
         "category": "diagnostic",
         "text": (
-            "When a bug is hard to reproduce, the missing ingredient "
-            "is usually scope, not skill."
+            "When a bug is hard to reproduce, the missing ingredient is usually scope, not skill."
         ),
     },
     {
@@ -98,8 +95,7 @@ ORACLES: list[dict[str, str]] = [
     {
         "category": "humor",
         "text": (
-            "The fastest way to make a system mysterious is to call it "
-            "'intuitive' in the README."
+            "The fastest way to make a system mysterious is to call it 'intuitive' in the README."
         ),
     },
     {
@@ -112,22 +108,19 @@ ORACLES: list[dict[str, str]] = [
     {
         "category": "humor",
         "text": (
-            "Legacy code is any code whose author is no longer in the room "
-            "when the build breaks."
+            "Legacy code is any code whose author is no longer in the room when the build breaks."
         ),
     },
     {
         "category": "minimal",
         "text": (
-            "Delete first. Refactor second. Add only after both have failed "
-            "to clarify the problem."
+            "Delete first. Refactor second. Add only after both have failed to clarify the problem."
         ),
     },
     {
         "category": "minimal",
         "text": (
-            "A function that needs fewer than three sentences to explain "
-            "is usually worth keeping."
+            "A function that needs fewer than three sentences to explain is usually worth keeping."
         ),
     },
     {
@@ -153,10 +146,7 @@ ORACLES: list[dict[str, str]] = [
     },
     {
         "category": "machine",
-        "text": (
-            "Automate the part you keep explaining, "
-            "not the part you keep misunderstanding."
-        ),
+        "text": ("Automate the part you keep explaining, not the part you keep misunderstanding."),
     },
     {
         "category": "machine",
@@ -168,8 +158,7 @@ ORACLES: list[dict[str, str]] = [
     {
         "category": "machine",
         "text": (
-            "When a task becomes routine enough to document, "
-            "it is usually ready to become code."
+            "When a task becomes routine enough to document, it is usually ready to become code."
         ),
     },
     {
@@ -224,10 +213,7 @@ def _json_many(oracles: list[dict[str, str]]) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="athena",
-        description=(
-            "A small CLI oracle for engineering perspective "
-            "and machine folklore."
-        ),
+        description=("A small CLI oracle for engineering perspective and machine folklore."),
     )
     parser.add_argument(
         "-l",
