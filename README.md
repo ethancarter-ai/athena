@@ -116,3 +116,7 @@ athena/
 ## License
 
 MIT
+
+## Repository
+
+- [Source](https://github.com/ethancarter-ai/athena)

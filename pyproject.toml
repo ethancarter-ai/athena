@@ -5,7 +5,7 @@ description = "A small CLI oracle for engineering perspective and machine folklo
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.11"
-authors = [{name = "Hermes Agent", email = "hermes@example.com"}]
+authors = [{name = "Ethan Carter"}]
 
 [project.scripts]
 athena = "athena:main"
